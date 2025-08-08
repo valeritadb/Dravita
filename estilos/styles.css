@@ -1,0 +1,39 @@
+
+body{
+    position: relative;
+    height: 100vh;
+    background-image: url('../multimedia/Drammophon-05.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+}
+
+.contenedor{
+    position: absolute;
+    top: 60%; /* Un poco más abajo del centro */
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.boton-wpp{
+   background-color: rgba(0, 0, 0, 0);
+    padding: 1.5%;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.boton-wpp:hover{
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    transform: scale(5px);
+}
+
+
