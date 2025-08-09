@@ -1,8 +1,20 @@
 
+.outfit-uniquifier {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     position: relative;
     height: 100vh;
-    background-image: url('../multimedia/Drammophon-05.png');
+    background-image: url('../multimedia/dravita\ background\ 3\ Drammophon_Mesa\ de\ trabajo\ 1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,28 +24,52 @@ body{
 
 .contenedor{
     position: absolute;
-    top: 60%; /* Un poco más abajo del centro */
+    top: 80%; /* Un poco más abajo del centro */
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 
-.boton-wpp{
-   background-color: rgba(0, 0, 0, 0);
-    padding: 1.5%;
+.boton-wpp {
+    background-color: rgba(94, 94, 94, 0.39);
+    padding: 1rem 2.6rem; /* Menos alto, más ancho */
     border-radius: 5px;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
-    border: 2px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     cursor: pointer;
     transition: all ease 0.3s;
+    white-space: nowrap; /* Evita que el texto se divida en dos líneas */
+    text-align: center;
+    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
+    font-family:"Outfit", sans-serif;
+    font-weight: 650;
 }
 
-.boton-wpp:hover{
-    background-color: red;
-    border: 2px solid red;
+
+.boton-wpp:hover {
+    background-color: #009FE3;
+    border: none;
     color: white;
-    transform: scale(5px);
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    transform: scale(1.05); /* Aumenta el tamaño un 5% */
+}
+
+@media (max-width: 768px) {
+    /* Estilos para pantallas pequeñas */
+    body {
+        background-size: cover;
+        background-position: top center;
+    }
+
+    .boton-wpp {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .contenedor {
+        top: 75%; 
+    }
 }
 
 
