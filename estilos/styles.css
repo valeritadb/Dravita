@@ -24,16 +24,17 @@ body{
 
 .contenedor{
     position: absolute;
-    top: 80%; /* Un poco más abajo del centro */
+    top: 83%; /* Un poco más abajo del centro */
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 50vh;
 
 }
 
 .boton-wpp {
     background-color: rgba(94, 94, 94, 0.39);
-    padding: 1rem 2.6rem; /* Menos alto, más ancho */
-    border-radius: 5px;
+    padding: 1rem 3rem; /* Menos alto, más ancho */
+    border-radius: 12px;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     border: 3px solid rgb(0, 0, 0);
@@ -44,11 +45,19 @@ body{
     box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.5);
     font-family:"Outfit", sans-serif;
     font-weight: 650;
+    letter-spacing: 0.5vh;
+    width: 100%;
+
+}
+
+.icon-whatsapp{
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
 }
 
 
 .boton-wpp:hover {
-    background-color: #009FE3;
+    background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
     box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
@@ -61,6 +70,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 50vh;
+    width: 50vh;
 }
 .contspoti iframe {
     border-radius:12px;
@@ -83,9 +93,11 @@ body{
 
     .contenedor {
         top: 75%; 
+        width: 80%;
     }
 
     .contspoti{
+        top: 45%;
         width: 80%;
     }
 }
