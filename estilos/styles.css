@@ -14,7 +14,7 @@
 body{
     position: relative;
     height: 100vh;
-    background-image: url('../multimedia/dravita\ background\ 3\ Drammophon_Mesa\ de\ trabajo\ 1.png');
+    background-image: url('../multimedia/FONDONavidad.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
 .contenedor{
     position: absolute;
     top: 75%; /* Un poco más abajo del centro */
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
     width: 50vh;
 
