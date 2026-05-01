@@ -14,20 +14,24 @@
 body{
     position: relative;
     height: 100vh;
-    background-image: url('../multimedia/Anniversary_bg.png');
+    background-image: url('../multimedia/nuevo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment:fixed;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .contenedor{
     position: absolute;
-    top: 75%; /* Un poco más abajo del centro */
-    left: 49%;
+    top: 85%; /* Un poco más abajo del centro */
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 50vh;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -37,7 +41,7 @@ body{
     border-radius: 12px;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
-    border: 3px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     cursor: pointer;
     transition: all ease 0.3s;
     white-space: nowrap; /* Evita que el texto se divida en dos líneas */
@@ -73,13 +77,14 @@ body{
     width: 50vh;
     
 }
-/*.contspoti iframe {
+.contspoti iframe {
     border-radius:12px;
     width:100%;
     height:100%;
     border: 0;
     box-shadow: 1px 8px 8px 1px rgba(0, 0, 0, 0.4);
-}*/
+    opacity: 60%;
+}
 
 @media (max-width: 768px) {
     /* Estilos para pantallas pequeñas */
